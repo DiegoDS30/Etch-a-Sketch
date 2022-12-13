@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Spinnaker&display=swap');
+
+* {
+    background-color: #EEE4DA;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+}
