@@ -10,10 +10,31 @@
 </head>
 <body>
 
-    <h1>Etch-a-Sketch</h1>
+    <header>
 
-    <button>prueba 1</button>
-    <button>prueba 2</button>
+        <h1>Etch-a-Sketch</h1>
+
+    </header>
+
+    <main>
+
+        <div class="settings">
+
+            <input type="color" value="#fff" id="clrPicker">
+
+            <button id="btnColor">Color</button>
+            <button id="btnRainbow">Rainbow</button>
+            <button id="btnClear">Clear</button>
+
+            <p id="sizeValue"></p>
+
+            <input type="range" min="8" max="64" id="sizeChange">
+
+        </div>
+
+        <div id="board"></div>
+
+    </main>
     
 </body>
 </html>
